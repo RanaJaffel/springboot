@@ -1,4 +1,4 @@
 package org.example.autolocapi.service;
 
-public class ReservationService {
+public class ReservationService implements IReservationService{
 }

@@ -1,4 +1,4 @@
 package org.example.autolocapi.service;
 
-public class ContratService {
+public class ContratService implements IContratService{
 }

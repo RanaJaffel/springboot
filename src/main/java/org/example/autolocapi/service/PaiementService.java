@@ -1,4 +1,4 @@
 package org.example.autolocapi.service;
 
-public class PaiementService {
+public class PaiementService implements IPaiementService{
 }

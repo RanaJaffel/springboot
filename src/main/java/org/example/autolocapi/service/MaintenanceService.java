@@ -1,4 +1,4 @@
 package org.example.autolocapi.service;
 
-public class MaintenanceService {
+public class MaintenanceService implements IEquipementService {
 }
