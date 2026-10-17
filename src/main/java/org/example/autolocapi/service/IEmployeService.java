@@ -1,20 +1,18 @@
+
 package org.example.autolocapi.service;
 
 import org.example.autolocapi.domain.Employe;
-
 import java.util.List;
 
 public interface IEmployeService {
 
-    List<Employe> retrieveAllEmployes();
+    Employe create(Employe employe);
 
-    Employe addEmploye(Employe e);
+    Employe findById(Long id);
 
-    Employe updateEmploye(Employe e);
+    List<Employe> findAll();
 
-    Object retrieveEmploye(Long idEmploye);
+    Employe update(Long id, Employe employe);
 
-    void removeEmploye(Long idEmploye);
-
-    List<Employe> addEmployes(List<Employe> employes);
+    void deleteById(Long id);
 }
