@@ -1,5 +1,7 @@
+
 package org.example.autolocapi.domain;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -31,5 +33,6 @@ public class Paiement {
 
     @ManyToOne
     @JoinColumn(name = "id_contrat")
+    @JsonBackReference
     private Contrat contrat;
 }
